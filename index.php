@@ -7,11 +7,15 @@ class commenteer{
 
         $file = file_get_contents('/comments.json');
         $number = count($file);
-        $comments = array(json_decode($file, true));
+        $comments = array($file);
+        
+        $comment = array_rand($comments);
 
         if(isset($username))
         {
-
+            echo "${username}: ${comment}";
+        }else{
+            echo $comment;
         }
     }
 }
