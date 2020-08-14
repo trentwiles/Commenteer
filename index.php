@@ -1,15 +1,14 @@
 <?php
 
-class commenteer{
 
-    public function default($username)
+    function youtube($username)
     {
 
-        $file = file_get_contents('/comments.json');
-        $number = count($file);
-        $comments = array($file);
-        
-        $comment = array_rand($comments);
+        $file = file_get_contents('comments.json');
+        $comments = json_decode($file, true);
+        $max = count($comments);
+        $total = rand(0, $max);
+        $comment = ($comments[$total]);
 
         if(isset($username))
         {
@@ -20,4 +19,3 @@ class commenteer{
             echo $comment;
         }
     }
-}
