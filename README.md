@@ -11,7 +11,7 @@ Commenteer is a collection of comments I have collected from YouTube that I have
 You can always just download the JSON file of comments, or you can use our PHP library.
 
 ```
-composer require riversiderocks/commenteer
+composer require riversiderocks/commenteer=dev-master
 ```
 
 ### Usage
