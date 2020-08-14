@@ -6,6 +6,25 @@ Random Comments for the masses.
 
 Commenteer is a collection of comments I have collected from YouTube that I have released for the public. Use them for entertainment, training AIs, whatever you want (just don't use them for bots please!).
 
+## Installing
+
+You can always just download the JSON file of comments, or you can use our PHP library.
+
+```
+composer require riversiderocks/commenteer
+```
+
+### Usage
+
+After including the library, autoload it with composer and then use the youtube function to get a random comment.
+
+```
+
+youtube(); // Echos a random comment
+
+youtube("bob"); // Echos a random comment by Bob
+
+```
 
 ## The Comments
 
