@@ -1,0 +1,13 @@
+{
+    "name": "riversiderocks/commenteer",
+    "description": "Random comments for the masses.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Riverside Rocks",
+            "email": "trent@riverside.rocks"
+        }
+    ],
+    "require": {}
+}
