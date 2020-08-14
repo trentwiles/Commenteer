@@ -1,11 +1,7 @@
 <?php
 
-/* Begin */
-
-namespace commenteer;
-
-    class youtube{
-        public static function youtube($username)
+/* begin */
+        function youtube($username)
         {
 
             $file = file_get_contents('comments.json');
@@ -23,6 +19,5 @@ namespace commenteer;
                 echo $comment;
             }
         }
-    }
 
 /* End */
