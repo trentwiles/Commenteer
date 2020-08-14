@@ -9,5 +9,13 @@
             "email": "trent@riverside.rocks"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "commenteer": "/"
+        }
+    }
 }
