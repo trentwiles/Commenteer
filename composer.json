@@ -9,7 +9,7 @@
             "email": "trent@riverside.rocks"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.2.0"
     },
