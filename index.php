@@ -14,7 +14,9 @@ class commenteer{
         if(isset($username))
         {
             echo "${username}: ${comment}";
-        }else{
+        }
+        else
+        {
             echo $comment;
         }
     }
